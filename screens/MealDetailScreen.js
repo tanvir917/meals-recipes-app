@@ -7,6 +7,7 @@ const MealDetailScreen = props => {
             <Text>The Meal Details Screen!</Text>
             <Button title="Go Back to Categories" onPress={() => {
                 props.navigation.popToTop();
+                //props.navigation.replace('CategoryMeals')//ex- using login screen
             }}/>
         </View>
     );
