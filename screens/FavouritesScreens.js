@@ -8,6 +8,9 @@ import HeaderButton from '../components/HeaderButton';
 const FavouritesScreen = props => {
 
     const favMeals = useSelector(state => state.meals.favouriteMeals);
+    console.log('====================================');
+    console.log('meal list fav:',props.navigation);
+    console.log('====================================');
 
     return (
         <MealList listData={favMeals} navigation={props.navigation}/>
